@@ -1,5 +1,5 @@
-def string_size()
-
+def string_size(strang)
+	strang.length
 end
 
 def array_concat
