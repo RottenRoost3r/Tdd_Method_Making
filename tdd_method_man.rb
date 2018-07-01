@@ -7,10 +7,11 @@ def string_size(strang)
 	counter
 end
 
-def array_concat
+def array_concat(a, b)
 
 end
 
-def hash_value?
+
+def hash_value?()
 end
 
