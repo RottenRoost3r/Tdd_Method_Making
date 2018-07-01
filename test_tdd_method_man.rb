@@ -21,4 +21,9 @@ class TestMyMethods < Minitest::Test
 
     def Test_that_array_function_works_with_even_larger_array
     	assert_equal([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], array_concat([1, 2], [3, 4, 5, 6, 7, 8, 9, 10]))	
-end	end
+    end
+
+    def test_
+    	assert_equal(true, hash_value?({}, 0))
+    end
+end
