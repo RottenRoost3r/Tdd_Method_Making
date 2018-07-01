@@ -9,9 +9,12 @@ end
 
 def array_concat(a, b)
 
-a.push(b.min)
-b.shift
-a.push(b.min)
+	if b.length >= 0
+		a.push(b.min)
+		b.shift
+		a.push(b.min)
+	else b.length == 0
+	end
 
 end
 
