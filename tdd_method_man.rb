@@ -8,7 +8,7 @@ def string_size(strang)
 end
 
 def array_concat(a, b)
-
+a.push(b.min)
 
 end
 
