@@ -14,5 +14,9 @@ class TestMyMethods < Minitest::Test
     def test_that_element_moves
     	assert_equal([1, 2, 3, 4], array_concat([1, 2], [3, 4]))
     end
+
+    def Test_that_array_fucntion_works_with_larger_array
+    	assert_equal([1, 2, 3, 4, 5, 6], array_concat([1, 2, 3], [4, 5, 6]))
+    end	
     
 end
