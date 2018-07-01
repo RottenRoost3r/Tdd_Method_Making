@@ -23,7 +23,7 @@ class TestMyMethods < Minitest::Test
     	assert_equal([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], array_concat([1, 2], [3, 4, 5, 6, 7, 8, 9, 10]))	
     end
 
-    def test_
-    	assert_equal(true, hash_value?({}, 0))
+    def test_that_value_is_present
+    	assert_equal(true, hash_value?({"a" => 100, "b" => 0, "c" => 20}, 100))
     end
 end
