@@ -2,20 +2,21 @@ def string_size(strang)
 	counter = 0
 	strang.each_char do 
 		counter += 1
-		
 	end
 	counter
 end
 
 def array_concat(a, b)
-
-	if b.length >= 0
-		a.push(b.min)
-		b.shift
-		a.push(b.min)
-	else b.length == 0
+	b.each do |n|
+		a.push(n)
 	end
+	a
 
+	# if b.length >= 0
+	# 	a.push(b.min)
+	# 	b.shift
+	# 	a.push(b.min)
+	# end
 end
 
 

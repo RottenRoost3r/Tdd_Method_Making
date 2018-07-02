@@ -27,4 +27,5 @@ class TestMyMethods < Minitest::Test
     	assert_equal(true, hash_value?({"a" => 100, "b" => 0, "c" => 20}, 100))
     	assert_equal(false, hash_value?({"a" => 100, "b" => 0, "c" => 20}, 200))
     end
+    
 end
